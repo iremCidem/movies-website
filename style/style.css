@@ -1,0 +1,96 @@
+ body,
+ html {
+     height: 100%;
+ }
+
+
+ .hero-image {
+
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/movie-night.jpg");
+
+
+     height: 100%;
+
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+
+ .hero-text {
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+ }
+
+ .box {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     background-size: cover;
+     height: 15rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+ }
+
+ .box-1 {
+     background-image: url("../images/bilim.jpg");
+
+ }
+
+ .img-clean {
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+
+ .box-2 {
+     background-image: url("../images/horror.jfif");
+ }
+
+ .box-3 {
+     background-image: url("../images/komedi.jpg");
+ }
+
+ .box-4 {
+     background-image: url("../images/action.jpg");
+ }
+
+ .box-5 {
+     background-image: url("../images/romance.png");
+ }
+
+ .box-6 {
+     background-image: url("../images/western.jpg");
+ }
+
+ .col {
+     padding: 0 !important;
+ }
+
+ div.box h1 {
+     display: none;
+     transition: all 0.5s ease-in;
+ }
+
+ div.box:hover h1 {
+
+     display: block;
+
+     transition: all 0.5s ease-in;
+ }
+
+ .box:hover {
+
+
+     background-color: rgba(244, 98, 58, 0.7)
+ }
