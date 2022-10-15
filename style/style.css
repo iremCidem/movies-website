@@ -1,8 +1,11 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
  body,
  html {
      height: 100%;
  }
-
 
  .hero-image {
 
@@ -27,34 +30,18 @@
      transform: translate(-50%, -50%);
      color: white;
  }
-
- .box {
-     width: 100%;
-     margin: 0;
-     padding: 0;
-     background-size: cover;
-     height: 15rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-
+ .col-4 {
+     padding: 0 !important;
+    
  }
 
  .box-1 {
      background-image: url("../images/bilim.jpg");
-
- }
-
- .img-clean {
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-
  }
 
  .box-2 {
-     background-image: url("../images/horror.jfif");
+     background-image: url("../images/horror.jpg");
+     
  }
 
  .box-3 {
@@ -72,26 +59,33 @@
  .box-6 {
      background-image: url("../images/western.jpg");
  }
-
- .col {
-     padding: 0 !important;
+ .box {
+     height: 220px;
+     position: relative;
  }
-
- div.box h1 {
+ .box-b{
+background-position: 0;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+ .box h1 {
+    text-align: center;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
      display: none;
-     transition: all 0.5s ease-in;
+}
+.box:hover {
+     background-color: rgba(244, 98, 58, 0.521);
+     }
+ .box:hover h1{
+    display: block;
  }
 
- div.box:hover h1 {
-
-     display: block;
-
-     transition: all 0.5s ease-in;
- }
-
- .box:hover {
-
-
-     background-color: rgba(244, 98, 58, 0.7)
- }
  
+ 
+ 
+
+
+  
